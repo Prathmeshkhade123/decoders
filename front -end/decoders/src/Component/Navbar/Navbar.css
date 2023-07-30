@@ -1,0 +1,21 @@
+.navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  
+    
+}
+.main{
+    height: 15rem;
+    border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color: aquamarine;
+}
+.image{
+    height: 10vh;
+    border-radius: 1rem;
+}

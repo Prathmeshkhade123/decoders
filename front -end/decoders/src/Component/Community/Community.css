@@ -1,0 +1,118 @@
+/* Remove the styles for the popup */
+.modal-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.popup-header {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    background: #2355f2 url(https://rvs-newsletter-popup.vercel.app/Assets/Pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.popup-header h1 {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.popup-body {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.popup-content .popup-txt,
+.popup-profile .profile-txt p {
+    width: 90%;
+    color: #a3a3a3;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.popup-content .popup-form {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+
+.popup-content .popup-form input,
+.popup-content .popup-form button {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.popup-content .popup-form input {
+    width: 70%;
+    border: 2px solid #e9eaf1;
+    background-color: #f5f7fa;
+    color: #a3a3a3;
+}
+
+.popup-content .popup-form button {
+    cursor: pointer;
+    background-color: #2355f2;
+    border: 0px;
+    color: #fff;
+}
+
+.popup-content .popup-alt-txt {
+    width: 100%;
+    color: #a3a3a3aa;
+    line-height: 20px;
+    text-align: start;
+    font-weight: 500;
+}
+
+.popup-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    margin-top: 20px;
+}
+
+.popup-profile .profile-content {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.popup-profile .profile-content .profile-img img {
+    width: 50px;
+}
+
+.popup-profile .profile-content .profile-details h4 {
+    font-weight: 600;
+}
+
+.popup-profile .profile-content .profile-details p {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+

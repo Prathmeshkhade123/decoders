@@ -1,0 +1,31 @@
+.strikethrough {
+    text-decoration: line-through;
+}
+.tasks{
+    
+}
+li{
+    
+            text-align: left;
+            list-style-type: none;
+            border-radius: 1rem;
+            list-style-position: inside;
+            /* background-color: red; */
+            margin-bottom: 1rem;
+            height: 2.5rem;
+            padding-left: 1rem;
+            padding-top: 0.3rem;
+            color:white;
+        
+}
+.l1{
+    background-color: #a9a961;
+    
+}
+
+.l2{
+    background-color: #9c73c1;
+}
+.l3{
+    background-color: #6db79b;
+}

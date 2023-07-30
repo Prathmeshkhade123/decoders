@@ -1,0 +1,44 @@
+.tab-head {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+:root {
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+}
+
+
+.cards-wrapper {
+    grid-column: center-start / -1;
+    
+    overflow-x: scroll;
+    /* Enable horizontal scrolling */
+    padding-bottom: 1rem;
+    padding-right: var(--page-margin);
+    scrollbar-width: none;
+    /* Hide the default scrollbar */
+    -ms-overflow-style: none;
+    /* Hide the default scrollbar in Internet Explorer and Edge */
+}
+
+.cards-wrapper::-webkit-scrollbar {
+    width: 0;
+    /* Hide the default scrollbar in WebKit-based browsers */
+}
+
+.cards-wrapper button {
+    display: grid;
+    place-content: center;
+    background-color: #d0f0ee;
+    color: #15928A;
+    font-size: 1rem;
+    border-radius: 1rem;
+    height: 2rem;
+    min-width: 13rem;
+    border: none;
+    /* Optional: Remove the button border to make it look like a card */
+}
